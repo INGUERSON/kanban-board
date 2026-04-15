@@ -19,7 +19,7 @@ jobs:
           node-version: 20
           cache: 'npm'
       - name: Install Dependencies 📦
-        run: npm ci
+        run: npm install
       - name: Lint & Type Check 🔍
         run: npm run build
       - name: Build 🏗️
